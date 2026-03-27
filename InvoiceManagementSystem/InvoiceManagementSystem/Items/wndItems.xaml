@@ -6,7 +6,32 @@
         xmlns:local="clr-namespace:InvoiceManagementSystem.Items"
         mc:Ignorable="d"
         Title="wndItems" Height="450" Width="800">
-    <Grid>
-        
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <DataGrid x:Name="dgItems"
+              Grid.Column="0"
+              Margin="0,0,10,0"
+              CanUserAddRows="False"
+              AutoGenerateColumns="True" />
+
+        <StackPanel Grid.Column="1">
+            <TextBlock Text="Item Code" />
+            <TextBox x:Name="txtItemCode" IsReadOnly="True" Margin="0,0,0,10" />
+
+            <TextBlock Text="Description" />
+            <TextBox x:Name="txtDescription" Margin="0,0,0,10" />
+
+            <TextBlock Text="Cost" />
+            <TextBox x:Name="txtCost" Margin="0,0,0,10" />
+
+            <Button x:Name="btnAdd" Content="Add Item" Margin="0,5" />
+            <Button x:Name="btnUpdate" Content="Update Item" Margin="0,5" />
+            <Button x:Name="btnDelete" Content="Delete Item" Margin="0,5" />
+            <Button x:Name="btnClose" Content="Close" Margin="0,5" />
+        </StackPanel>
     </Grid>
 </Window>
