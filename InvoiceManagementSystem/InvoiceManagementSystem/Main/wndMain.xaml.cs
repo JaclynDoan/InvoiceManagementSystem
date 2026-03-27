@@ -1,4 +1,5 @@
-﻿using System;
+﻿using InvoiceManagementSystem.Search;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -24,23 +25,27 @@ namespace InvoiceManagementSystem.Main
             InitializeComponent();
         }
         /// <summary>
-        /// Search ion the menu clicked, opens the search window
+        /// Update on the menu clicked, updates the database
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
         private void menuUpdate_Click(object sender, RoutedEventArgs e)
         {
-            // Open the search window
+            // update a def table that contains the items
         }
-        /// <summary>
-        /// Update on the menu clicked, updates the database
+        
+        /// /// <summary>
+        /// Search ion the menu clicked, opens the search window
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
         private void menuSearch_Click(object sender, RoutedEventArgs e)
         {
-            // update a def table that contains the items
+            // Open the search window
+            wndSearch searchWindow = new wndSearch();
+            searchWindow.Show();
         }
+
         /// <summary>
         /// Update Items in combo box
         /// </summary>
