@@ -1,5 +1,5 @@
 ﻿InvoiceManagementSystem
-1.0.0.0
+
 
 winexe
 C#
@@ -12,9 +12,9 @@ TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR
 C:\Users\mchri\source\repos\InvoiceManagementSystem\InvoiceManagementSystem\InvoiceManagementSystem\App.xaml
 4-1986124705
 
-15-1520967294
+13-1114593672
 198391363836
 Items\wndItems.xaml;MainWindow.xaml;Main\wndMain.xaml;Search\wndSearch.xaml;
 
-True
+False
 

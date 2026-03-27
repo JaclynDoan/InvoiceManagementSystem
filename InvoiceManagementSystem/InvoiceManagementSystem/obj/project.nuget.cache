@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "uMM8OYGgILc=",
+  "dgSpecHash": "c6As88oqlzY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Guest1\\source\\repos\\InvoiceManagementSystem\\InvoiceManagementSystem\\InvoiceManagementSystem\\InvoiceManagementSystem.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\mchri\\source\\repos\\InvoiceManagementSystem\\InvoiceManagementSystem\\InvoiceManagementSystem\\InvoiceManagementSystem.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mchri\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.25\\microsoft.windowsdesktop.app.ref.8.0.25.nupkg.sha512",
+    "C:\\Users\\mchri\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.25\\microsoft.netcore.app.ref.8.0.25.nupkg.sha512",
+    "C:\\Users\\mchri\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.25\\microsoft.aspnetcore.app.ref.8.0.25.nupkg.sha512",
+    "C:\\Users\\mchri\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.25\\microsoft.netcore.app.host.win-x64.8.0.25.nupkg.sha512"
+  ],
   "logs": []
 }
