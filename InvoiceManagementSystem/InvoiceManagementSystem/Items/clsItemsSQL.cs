@@ -9,7 +9,11 @@ namespace InvoiceManagementSystem.Items
     /// <summary>
     /// Contains SQL statements for the Items window.
     /// </summary>
+<<<<<<< HEAD
     public class clsItemsSQL
+=======
+    internal class clsItemsSQL
+>>>>>>> 02eb15b17f1c1b67f06485d9085443dd9b78e714
     {
         /// <summary>
         /// Gets all items for display in the Items window.

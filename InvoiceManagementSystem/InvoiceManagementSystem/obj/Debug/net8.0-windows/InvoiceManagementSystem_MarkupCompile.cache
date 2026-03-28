@@ -4,16 +4,28 @@
 winexe
 C#
 .cs
+<<<<<<< HEAD
 C:\Users\Guest1\source\repos\InvoiceManagementSystem\InvoiceManagementSystem\InvoiceManagementSystem\obj\Debug\net8.0-windows\
+=======
+C:\Users\mchri\source\repos\InvoiceManagementSystem\InvoiceManagementSystem\InvoiceManagementSystem\obj\Debug\net8.0-windows\
+>>>>>>> 02eb15b17f1c1b67f06485d9085443dd9b78e714
 InvoiceManagementSystem
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
+<<<<<<< HEAD
 C:\Users\Guest1\source\repos\InvoiceManagementSystem\InvoiceManagementSystem\InvoiceManagementSystem\App.xaml
 4-1986124705
 
 13-1114593672
 198-1831388575
+=======
+C:\Users\mchri\source\repos\InvoiceManagementSystem\InvoiceManagementSystem\InvoiceManagementSystem\App.xaml
+4-1986124705
+
+13-1114593672
+198391363836
+>>>>>>> 02eb15b17f1c1b67f06485d9085443dd9b78e714
 Items\wndItems.xaml;MainWindow.xaml;Main\wndMain.xaml;Search\wndSearch.xaml;
 
 False

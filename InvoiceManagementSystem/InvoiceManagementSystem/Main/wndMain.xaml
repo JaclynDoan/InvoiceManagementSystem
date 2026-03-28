@@ -7,6 +7,20 @@
         mc:Ignorable="d"
         Title="wndMain" Height="450" Width="800">
     <Grid>
-        
+        <Menu x:Name="menuMail" Background="#FFD6D6D6" Margin="0,0,0,390" Width="800" HorizontalContentAlignment="Center" FontSize="15" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <MenuItem x:Name="menuUpdate" Header="Update" Margin="10,0,10,0" Click="menuUpdate_Click"/>
+            <MenuItem x:Name="menuSearch" Header="Search" Width="60" HorizontalAlignment="Center" VerticalAlignment="Center" Click="menuSearch_Click"/>
+        </Menu>
+        <Button x:Name="btnNewInvoice" Content="Create New Invoice" HorizontalAlignment="Left" Margin="203,362,0,0" VerticalAlignment="Top" FontSize="13"/>
+        <Button x:Name="btnEditInvoice" Content="Edit Invoice" HorizontalAlignment="Left" Margin="510,362,0,0" VerticalAlignment="Top" FontSize="13"/>
+        <Label x:Name="lblInvoiceNum" Content="Invoice Number:" HorizontalAlignment="Left" Margin="159,78,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <TextBox x:Name="txtbInvoiceNum" HorizontalAlignment="Left" Margin="275,78,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14" Text="TBD" Height="29" VerticalContentAlignment="Center"/>
+        <Label x:Name="lblInvoiceDate" Content="Invoice Date:" HorizontalAlignment="Left" Margin="421,78,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <DatePicker x:Name="dpckInvoiceDate" HorizontalAlignment="Left" Margin="517,78,0,0" VerticalAlignment="Top" Width="108" Height="29"/>
+        <Label x:Name="lblInvoiceCost" Content="Invoice Cost:" HorizontalAlignment="Left" Margin="159,201,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <TextBox x:Name="txtbInvoiceCost" HorizontalAlignment="Left" Margin="275,201,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14" Text="TBD" Height="29" VerticalContentAlignment="Center" IsReadOnly="True"/>
+        <Label x:Name="lblInvoiceItem" Content="Invoice Item:" HorizontalAlignment="Left" Margin="421,201,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <ComboBox x:Name="cmbbItems" HorizontalAlignment="Left" Margin="520,201,0,0" VerticalAlignment="Top" Width="120" Height="29"/>
+
     </Grid>
 </Window>

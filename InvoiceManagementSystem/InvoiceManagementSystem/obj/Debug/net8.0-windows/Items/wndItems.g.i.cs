@@ -117,7 +117,7 @@ namespace InvoiceManagementSystem.Items {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/InvoiceManagementSystem;component/items/wnditems.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/InvoiceManagementSystem;V1.0.0.0;component/items/wnditems.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Items\wndItems.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

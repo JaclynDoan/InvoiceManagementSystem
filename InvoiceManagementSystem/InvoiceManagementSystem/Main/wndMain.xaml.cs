@@ -1,4 +1,5 @@
-﻿using System;
+﻿using InvoiceManagementSystem.Search;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,6 +23,37 @@ namespace InvoiceManagementSystem.Main
         public wndMain()
         {
             InitializeComponent();
+        }
+        /// <summary>
+        /// Update on the menu clicked, updates the database
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void menuUpdate_Click(object sender, RoutedEventArgs e)
+        {
+            // update a def table that contains the items
+        }
+        
+        /// /// <summary>
+        /// Search ion the menu clicked, opens the search window
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void menuSearch_Click(object sender, RoutedEventArgs e)
+        {
+            // Open the search window
+            wndSearch searchWindow = new wndSearch();
+            searchWindow.Show();
+        }
+
+        /// <summary>
+        /// Update Items in combo box
+        /// </summary>
+        public void UpdateComboBox()
+        {
+            // This method will be called after the Items Window closes.
+            // If any items were added, updated, or deleted, this method will refresh the item combo box
+            // and any displayed item names on the Main Window.
         }
     }
 }

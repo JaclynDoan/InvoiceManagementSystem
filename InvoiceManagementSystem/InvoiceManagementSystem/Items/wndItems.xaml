@@ -13,10 +13,17 @@
         </Grid.ColumnDefinitions>
 
         <DataGrid x:Name="dgItems"
+<<<<<<< HEAD
                   Grid.Column="0"
                   Margin="0,0,10,0"
                   CanUserAddRows="False"
                   AutoGenerateColumns="True" />
+=======
+              Grid.Column="0"
+              Margin="0,0,10,0"
+              CanUserAddRows="False"
+              AutoGenerateColumns="True" />
+>>>>>>> 02eb15b17f1c1b67f06485d9085443dd9b78e714
 
         <StackPanel Grid.Column="1">
             <TextBlock Text="Item Code" />
